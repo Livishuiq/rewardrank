@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./index.css";
 
-const API = "http://localhost:8000";
+const API = "https://rewardrank-backend.onrender.com";
 
 function Section({ title, children }) {
   return (
